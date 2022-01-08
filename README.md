@@ -17,3 +17,15 @@ Another item we can identify from the linear model is more effective at predicti
 
 ![LM_Summary](https://user-images.githubusercontent.com/88597956/148660205-7e9991ba-82d6-4849-ae8d-ca9cbedc0ec9.png)
 
+## Summary Statistics on Suspension Coils
+
+For this deliverable, I created two summary stataistic dataframes looking at the suspension coil's PSI. One looked at all of the manuafacturing lots and the other grouped by the individual manufacturing lots. The design specification for the MechaCar suspension coils dictate the variance must not exceed 100 PSI. Based on the current data accross all manufacturing lots we could conclude that the they are meeting the required design specifications. When diving further into the data by grouping it by the manufacturing lot one can determine that Lots 1 and 2 are well within the design specification for variance sitting at .98 and 7.47 respectively . However, Lot 3 is far exceding the specifications outlined, sitting at a variance of 170.29. Images of the summar statistics are shown below.
+
+**Total Summary**
+
+![total_summary](https://user-images.githubusercontent.com/88597956/148661685-abb50196-691c-488b-a171-18a2f938f0a6.png)
+
+**Lot Summary**
+
+![lot_summary](https://user-images.githubusercontent.com/88597956/148661694-a89793be-f550-408d-82e4-c435de0af93e.png)
+
