@@ -15,7 +15,7 @@ We are also able to conclude that the slope for the linear model would not zero.
 
 Another item we can identify from the linear model is more effective at predicting the mpg of MechaCar prototypes. The can be identified by looking at the r-squared value of .6825. Meaning that there is a 68.3% chance that future data points will fit this model.
 
-![LM_Summary](https://user-images.githubusercontent.com/88597956/148660205-7e9991ba-82d6-4849-ae8d-ca9cbedc0ec9.png)
+![LM_Summary](https://user-images.githubusercontent.com/88597956/148665678-ee846b31-fe09-4a0c-b68b-86d86f28ee70.png)
 
 ## Summary Statistics on Suspension Coils
 
@@ -29,3 +29,27 @@ For this deliverable, I created two summary stataistic dataframes looking at the
 
 ![lot_summary](https://user-images.githubusercontent.com/88597956/148661694-a89793be-f550-408d-82e4-c435de0af93e.png)
 
+## T-Tests on Suspension Coils
+To determine if all manufacturing lots and each individual lot is statistically different from the mean population of 1500 PSI I conducted t-tests. 
+
+Null Hypothesis: There is no statistical difference between the population mean and the individual lot means
+
+Alternative Hypothesis: There is a statistical difference between the population mean and the individual lot means.
+
+Based on the below t-tests, one can conclude that there is no statistical difference when looking at the population mean. The p-values for all tests are above the .05 significance level. There for we are unable to reject the null hypothesis at this time .
+
+**Accross All Manufacturing Lots**
+
+![t-test1](https://user-images.githubusercontent.com/88597956/148665699-c8b39e26-8045-494a-81b2-1d79de257a3f.png)
+
+**Lot 1**
+
+![Lot1_t-test](https://user-images.githubusercontent.com/88597956/148665725-19a3fe84-0ce5-41e5-9d32-3a5d5946aa06.png)
+
+**Lot 2**
+
+![Lot2_t-test](https://user-images.githubusercontent.com/88597956/148665728-844bc5f0-4fe4-4942-a8ae-6c102e5b7195.png)
+
+**Lot 3**
+
+![Lot3_t-test](https://user-images.githubusercontent.com/88597956/148665753-89740956-3084-47d2-ae71-317d696cb1be.png)
