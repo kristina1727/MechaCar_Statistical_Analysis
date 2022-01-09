@@ -19,7 +19,7 @@ Another item we can identify from the linear model is more effective at predicti
 
 ## Summary Statistics on Suspension Coils
 
-For this deliverable, I created two summary stataistic dataframes looking at the suspension coil's PSI. One looked at all of the manuafacturing lots and the other grouped by the individual manufacturing lots. The design specification for the MechaCar suspension coils dictate the variance must not exceed 100 PSI. Based on the current data accross all manufacturing lots we could conclude that the they are meeting the required design specifications. When diving further into the data by grouping it by the manufacturing lot one can determine that Lots 1 and 2 are well within the design specification for variance sitting at .98 and 7.47 respectively . However, Lot 3 is far exceding the specifications outlined, sitting at a variance of 170.29. Images of the summar statistics are shown below.
+For this deliverable, I created two summary statistical dataframes looking at the suspension coil's PSI. One looked at all of the manufacturing lots and the other grouped by the individual manufacturing lots. The design specification for the MechaCar suspension coils dictate the variance must not exceed 100 PSI. Based on the current data across all manufacturing lots we could conclude that the they are meeting the required design specifications. When diving further into the data by grouping it by the manufacturing lot one can determine that Lots 1 and 2 are well within the design specification for variance sitting at .98 and 7.47 respectively . However, Lot 3 is far exceeding the specifications outlined, sitting at a variance of 170.29. Images of the summary statistics are shown below.
 
 **Total Summary**
 
@@ -38,7 +38,7 @@ Alternative Hypothesis: There is a statistical difference between the population
 
 Based on the below t-tests, one can conclude that there is no statistical difference when looking at the population mean. The p-values for all tests are above the .05 significance level. There for we are unable to reject the null hypothesis at this time .
 
-**Accross All Manufacturing Lots**
+**Across All Manufacturing Lots**
 
 ![t-test1](https://user-images.githubusercontent.com/88597956/148665699-c8b39e26-8045-494a-81b2-1d79de257a3f.png)
 
@@ -53,3 +53,24 @@ Based on the below t-tests, one can conclude that there is no statistical differ
 **Lot 3**
 
 ![Lot3_t-test](https://user-images.githubusercontent.com/88597956/148665753-89740956-3084-47d2-ae71-317d696cb1be.png)
+
+## Study Design: MechaCar vs Competition
+I would like to see MechaCar conduct a statistical study on the depreciation of their vehicals similat to that of their competitors. It is important for consumers to know that they are getting their moneys worth when purchasing a new car. It is also important for them to know that when it comes time for them to upgrade vehicles that they will be able to get top dollar when selling or trading-in. 
+
+**Metrics:**
+- Depreciation Rate over the life of the vehicle.
+
+**Hypothesis:**
+- Null Hypothesis: The rate of depreciation on MechaCars is equal to their competitors
+- Alternative Hypothesis: The rate of depreciation on MechaCars is not equal to their competitors
+
+**Statistical test:**
+To complete this study, the analysts at MechaCar would want to use linear regression. as this would show you the depreciation over time. 
+
+**Data:**
+- Age 
+- Mileage
+- Condition
+- Class
+- Make
+- Model 
